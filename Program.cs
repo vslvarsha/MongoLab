@@ -48,7 +48,7 @@ namespace ConsoleApplication4
             // Standard URI format: mongodb://[dbuser:dbpassword@]host:port/dbname
             //String uri = "mongodb://:pass@host:port/db";
 
-           // string uri = "mongodb://62f70ee8-5429-4cda-b947-a705c998f1a9:82148ec1-20ba-4f06-bcac-784267bfee38@159.8.128.196:10100/db";
+           
             string uri = "mongodb://IbmCloud_7cmdvh0j_k24f66ka_h6amhrse:514lk3jqNAiTmfYuTcjWlOOTo7IfKIIs@ds037812.mongolab.com:37812/IbmCloud_7cmdvh0j_k24f66ka";
 
 
