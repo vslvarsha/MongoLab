@@ -46,7 +46,6 @@ namespace ConsoleApplication4
             BsonDocument[] songData = seedData;
 
             // Standard URI format: mongodb://[dbuser:dbpassword@]host:port/dbname
-            //String uri = "mongodb://:pass@host:port/db";
 
            
             string uri = "mongodb://IbmCloud_7cmdvh0j_k24f66ka_h6amhrse:514lk3jqNAiTmfYuTcjWlOOTo7IfKIIs@ds037812.mongolab.com:37812/IbmCloud_7cmdvh0j_k24f66ka";
@@ -56,7 +55,7 @@ namespace ConsoleApplication4
 
             
             var client = new MongoClient(uri);
-           var db = client.GetDatabase("IbmCloud_7cmdvh0j_k24f66ka");
+           var db = client.GetDatabase("IbmCloud_7cmdvh0j_k24f66ka");//dbname as in the url
 
             /*
              * First we'll add a few songs. Nothing is required to create the
